@@ -1,10 +1,3 @@
-
-
 export default function Home() {
-  return (
-    <div >
-      INGENESYS
-    
-    </div>
-  );
+  return <div>INGENESYS</div>;
 }
