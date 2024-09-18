@@ -10,10 +10,10 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="es">
-      <body className="dark">
+      <body className="dark bg-gradient-to-r bg-gradient-to-r from-indigo-200 via-purple-300 to-pink-200">
         <ChakraProvider>
           {children}
-          <Navbar />
+          {/* <Navbar /> */}
         </ChakraProvider>
       </body>
     </html>
