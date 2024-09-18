@@ -1,6 +1,6 @@
+import Navbar from "@/components/Navbar";
 import "./globals.css";
 import { ChakraProvider } from "@chakra-ui/react";
-
 
 export const metadata = {
   title: "Ingenesys Solutions",
@@ -11,7 +11,10 @@ export default function RootLayout({ children }) {
   return (
     <html lang="es">
       <body className="dark">
-        <ChakraProvider>{children}</ChakraProvider>
+        <ChakraProvider>
+          {children}
+          <Navbar />
+        </ChakraProvider>
       </body>
     </html>
   );
