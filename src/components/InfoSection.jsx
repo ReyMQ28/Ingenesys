@@ -5,20 +5,20 @@ function InfoSection() {
     <div className="w-auto md:mb-20 xl:mb-0">
       <div className="w-full">
         <Image
-          className="w-full h-[640px] overflow-hidden"
+          className="w-full h-[640px] blur-md overflow-hidden"
           src={"https://i.postimg.cc/SRY5fQ8F/59303763700641-5ab98ff858d38.gif"}
           alt=""
           width={1080}
           height={640}
         />
-        <div className="flex flex-col items-center justify-center md:absolute sm:absolute md:-mt-[500px] sm:-mt-16 md:px-32">
-          <h1 className="md:text-8xl sm:text-4xl font-bold text-center md:text-white sm:text-gray-100 "> 
+        <div className="flex flex-col items-center justify-center md:absolute sm:absolute md:-mt-[500px] sm:-mt-[500px]  md:px-10">
+          <h1 className="md:text-7xl sm:text-4xl font-bold text-center md:text-white sm:text-gray-100 "> 
             Innovacion tecnologica y en ingenieria
           </h1>
         </div>
       </div>
     </div>
-  );
+  );  
 }
 
 export default InfoSection;
