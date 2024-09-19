@@ -3,8 +3,8 @@ import "./globals.css";
 import { ChakraProvider } from "@chakra-ui/react";
 
 export const metadata = {
-  title: "Ingenesys Solutions",
-  description: "Ingenieria y tecnologia en sinergia",
+  title: "Mi Branquita",
+  description: "Pagina de mi niña bonita",
 };
 
 export default function RootLayout({ children }) {
