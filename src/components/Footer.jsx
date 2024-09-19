@@ -61,7 +61,7 @@ function Footer() {
                 </li>
               </ul>
             </div>
-            {/* <div>
+            <div>
               <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">
                 Legal
               </h2>
@@ -77,7 +77,7 @@ function Footer() {
                   </a>
                 </li>
               </ul>
-            </div> */}
+            </div>
           </div>
         </div>
         <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
