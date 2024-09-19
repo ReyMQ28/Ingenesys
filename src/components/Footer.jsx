@@ -7,7 +7,7 @@ function Footer() {
       <div class="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
         <div class="md:flex md:justify-between">
           <div class="mb-6 md:mb-0">
-            <a href="https://flowbite.com/" class="flex items-center">
+            <a href="/" class="flex items-center">
               <Image
                 src="https://i.postimg.cc/Bvqy6ypm/ingenesys-logo-1.png"
                 width={50}
@@ -45,7 +45,7 @@ function Footer() {
               <ul class="text-gray-500 dark:text-gray-400 font-medium">
                 <li class="mb-4">
                   <a
-                    href="https://github.com/themesberg/flowbite"
+                    href=""
                     class="hover:underline "
                   >
                     Github
@@ -61,23 +61,23 @@ function Footer() {
                 </li>
               </ul>
             </div>
-            <div>
+            {/* <div>
               <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">
                 Legal
               </h2>
               <ul class="text-gray-500 dark:text-gray-400 font-medium">
                 <li class="mb-4">
                   <a href="#" class="hover:underline">
-                    Privacy Policy
+                    Politica de privacidad
                   </a>
                 </li>
                 <li>
                   <a href="#" class="hover:underline">
-                    Terms &amp; Conditions
+                    Terminos &amp; Condiciones
                   </a>
                 </li>
               </ul>
-            </div>
+            </div> */}
           </div>
         </div>
         <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />

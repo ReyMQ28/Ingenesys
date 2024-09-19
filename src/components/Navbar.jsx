@@ -1,10 +1,10 @@
-import React from 'react'
+"use client"
 
 function Navbar() {
     const { default: Image } = require("next/image");
 
   return (
-    <div><nav class="bg-white border-gray-200 dark:bg-gray-900">
+    <div><nav class="bg-white border-gray-200 dark:bg-gray-900 mb-0">
     <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
       <a
         href="/"
@@ -92,7 +92,7 @@ function Navbar() {
         </ul>
       </div>
     </div>
-  </nav>;
+  </nav>
   </div>
   )
 }
