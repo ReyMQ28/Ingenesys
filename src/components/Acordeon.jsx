@@ -25,7 +25,7 @@ function Acordeon() {
           </h2>
           <AccordionPanel pb={2}>
             <div>
-              <Accordion allowToggle className="border-transparent">
+              <Accordion allowToggle className="border-transparent bg-gray-950">
                 <AccordionItem>
                   <h2>
                     <AccordionButton>

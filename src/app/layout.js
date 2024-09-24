@@ -22,7 +22,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="es">
-      <body className="dark ">
+      <body className="dark">
         <ChakraProvider>{children}</ChakraProvider>
       </body>
     </html>
