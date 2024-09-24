@@ -2,3 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
+.blop {
+  border-radius: 78% 22% 41% 59% / 30% 78% 22% 70%;
+}
