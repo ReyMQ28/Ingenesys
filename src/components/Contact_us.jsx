@@ -15,7 +15,7 @@ function Contact_us() {
             Nos define nuestro equipo. Desarrollamos con talento y creatividad
             los mejores proyectos del mercado.
           </p>
-          <button className=" dark:bg-gray-950  rounded-3xl p-2 text-white font-bold text-base w-36 text-center">
+          <button className=" bg-gray-950  rounded-3xl p-2 text-white font-bold text-base w-36 text-center">
             Contáctanos
           </button>
         </div>
@@ -31,7 +31,7 @@ function Contact_us() {
             height={600}
           />
 
-          <div className=" dark:bg-gray-950  text-white h-28 px-8 py-2">
+          <div className="bg-gray-950  text-white h-28 px-8 py-2">
             <h1 className="text-3xl font-bold">Confiabilidad</h1>
             <p className="text-lg w-[500px]  py-1">Tus proyectos garantizados por el personal mas calificado de la industria</p>
           </div>
