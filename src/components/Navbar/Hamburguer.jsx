@@ -1,7 +1,7 @@
 "use client"
 import { GiHamburgerMenu } from "react-icons/gi";
 import React from 'react'
-import { Button, Drawer, DrawerBody, DrawerContent, DrawerHeader, DrawerOverlay, Radio, RadioGroup, Stack, useDisclosure } from '@chakra-ui/react'
+import { Button, Drawer, DrawerBody, DrawerContent, DrawerHeader, DrawerOverlay,  useDisclosure } from '@chakra-ui/react'
 
 
 function Hamburguer() {
@@ -12,7 +12,7 @@ function Hamburguer() {
         return (
           <>
             
-            <Button className="" colorScheme='transparent' onClick={onOpen}>
+            <Button className="text-gray-950" colorScheme='' onClick={onOpen}>
             <GiHamburgerMenu className="w-7 h-7" />
             </Button>
             <Drawer placement={placement} onClose={onClose} isOpen={isOpen}>
